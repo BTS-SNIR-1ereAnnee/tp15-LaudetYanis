@@ -1,3 +1,4 @@
+var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     //teste si les codes retour sont OK = on a bien lu le fichier demande
     if (this.readyState == 4 && this.status == 200) {
